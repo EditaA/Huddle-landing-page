@@ -1,0 +1,15 @@
+{
+  "name": "huddle",
+  "version": "1.0.0",
+  "description": "![Design preview for the Huddle landing page with alternating feature blocks coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "scss-watch": "node-sass-chokidar ./src/scss -o ./src/styles --watch"
+
+  },
+  "author": "Edita",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass-chokidar": "^1.3.4"
+  }
+}
