@@ -1,2 +1,6 @@
 body {
-  background-color: #f3e8ef; }
+  background-color: #e3e8ef; }
+
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  color: red; }
