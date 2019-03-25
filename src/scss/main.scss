@@ -1,8 +1,3 @@
-body {
-    background-color: #e3e8ef;
-}
-
-h1 {
-    font-family: 'Open Sans', sans-serif;
-    color: red;
-}
+@import './base/normalize';
+@import './base/variables';
+@import './base/base';
