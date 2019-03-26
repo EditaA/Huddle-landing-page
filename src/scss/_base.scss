@@ -1,0 +1,136 @@
+// variables
+// Colors
+$color-primary: #ff51bf;
+$color-headings: #00242d;
+$color-text:#7f8d98;
+$color-white: #eafaff;
+
+// Break points
+
+$mobile: 375px;
+$desktop: 1440px;
+
+// Font family
+$font-body: 'Open Sans',
+sans-serif;
+$font-headings: 'Poppins',
+sans-serif;
+
+// ++++++++++++++ reset ===========================>
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*,
+*::after,
+*::before {
+
+    box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+li,
+p,
+pre,
+blockquote,
+figure,
+hr {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-size: 1.8rem;
+    line-height: 1.5;
+    font-family: $font-body;
+    font-weight: 400;
+    color: $color-text;
+    background-color: #fff;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    color: $color-text;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+button {
+    background: 0 0;
+    border: 0;
+    cursor: pointer;
+    font-family: inherit;
+    border-radius: 0;
+    padding: 0.75em 1em;
+    background-color: transparent;
+}
+
+input {
+    appearance: none;
+    background: 0 0;
+    border: 0;
+    outline: 0;
+}
+
+input,
+textarea,
+select,
+button {
+    color: inherit;
+    font: inherit;
+    letter-spacing: inherit;
+}
+
+input,
+textarea,
+button {
+    border: 1px solid gray;
+}
+
+button * {
+    pointer-events: none;
+}
+
+// embed,
+// iframe,
+// img,
+// object,
+// video {
+//     display: block;
+//     max-width: 100%;
+// }
+
+// table {
+//     table-layout: fixed;
+//     width: 100%;
+// }
+
+// [hidden] {
+//     display: none !important;
+// }
+
+// /* noscript styles */
+// noscript {
+//     display: block;
+//     margin-bottom: 1em;
+//     margin-top: 1em;
+// }
