@@ -1,9 +1,10 @@
 // variables
 // Colors
 $color-primary: #ff51bf;
-$color-headings: #00242d;
+$color-headings: rgb(0, 36, 45);
 $color-text:#7f8d98;
 $color-white: #eafaff;
+$color-dark: #00252e;
 
 // Break points
 
@@ -46,6 +47,15 @@ figure,
 hr {
     margin: 0;
     padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: $color-headings;
 }
 
 

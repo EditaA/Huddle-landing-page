@@ -1,0 +1,103 @@
+.header {
+    background: url(../images/bg-hero-mobile.svg);
+    background-position: cover;
+    padding-bottom: 1rem;
+
+    &__topbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 8rem;
+        width: 100%;
+        padding: 0 1.5rem;
+    }
+}
+
+.hero {
+    text-align: center;
+
+    &__content {
+        max-width: 80%;
+        margin: 0 auto;
+    }
+
+    &__title {
+        font-size: 2.6rem;
+        margin-top: 7rem;
+        margin-bottom: 3rem;
+    }
+
+    &__subtitle {
+        font-weight: 400;
+        margin-bottom: 3rem;
+    }
+
+    &__img {
+        margin: 6rem auto 2rem;
+        width: 80%;
+
+    }
+}
+
+.main-content {
+    position: relative;
+}
+
+.illustration {
+    max-width: 90%;
+    margin: 2rem auto;
+    border-radius: 2rem;
+    box-shadow: 0px 0px 20px 2px rgba(158, 153, 153, 0.2);
+    padding-bottom: 3rem;
+
+    &__img-wrap {
+        padding: 5rem 5rem;
+
+    }
+
+    &__text-content {
+        text-align: center;
+        max-width: 80%;
+        margin: 0 auto;
+    }
+
+    &__title {
+        font-size: 2.2rem;
+        margin-bottom: 2rem;
+    }
+
+    &__description {
+        font-size: 1.4rem;
+
+    }
+
+}
+
+section:nth-child(3) {
+    margin-bottom: 15rem;
+}
+
+.cta {
+
+    box-shadow: 0px 0px 20px 2px rgba(158, 153, 153, 0.2);
+    border-radius: 2rem;
+    position: absolute;
+    top: 104%;
+    left: 1rem;
+    right: 1rem;
+    z-index: 1;
+    background-color: #fff;
+    padding: 4rem 0.3rem;
+    text-align: center;
+
+    &__title {
+        font-size: 1.9rem;
+        margin-bottom: 3rem;
+    }
+}
+
+
+.footer {
+    background-color: $color-dark;
+
+}
